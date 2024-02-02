@@ -1,0 +1,13 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Image Download</title>
+</head>
+<body>
+  <h1>Image Download Link</h1>
+  <a href="image.jpg" download>
+    <img src="image.jpg" alt="Image Download" />
+  </a>
+</body>
+</html>
