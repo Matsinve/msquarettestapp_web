@@ -3,17 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <title>Page title</title>
+<style>
+    /* CSS styles for the page */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    .song {
+      margin-bottom: 20px;
+    }
+
+    .image-link {
+      margin-top: 20px;
+    }
+
+    .image {
+      max-width: 100%;
+      margin-top: 20px;
+    }
+</style>
+    
+    
 </head>
 <body>
   <div id="container1">
-    <h2>Container 1</h2>
-    <p>This is the content of container 1.</p>
+   <div class="song">
+    <p>Download the song:</p>
+    <a href="1.mp3" download>Download Song</a>
+    <audio controls>
+      <source src="1.mp3">
+    </audio>
   </div>
+  </div>
+
+
+
+    
   <div id="container2">
-    <h2>Container 2</h2>
-    <p>This is the content of container 2.</p>
+  
+  <div class="image-link">
+    <p>View and download the image:</p>
+    <a href="2.jpg" target="_blank">View Image</a>
+    <a href="2.jpg" download>Download Image</a>
   </div>
-  <div id="container3">
+
+  <img src="2.jpg" alt="Image" class="image">
+  </div>
+ 
+    
+    
+    <div id="container3">
     <h2>Container 3</h2>
     <p>This is the content of container 3.</p>
   </div>
